@@ -1,0 +1,1 @@
+cmd_/home/yuyi/Documents/week8_sleep_wake/task1/devone.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/yuyi/Documents/week8_sleep_wake/task1/devone.ko /home/yuyi/Documents/week8_sleep_wake/task1/devone.o /home/yuyi/Documents/week8_sleep_wake/task1/devone.mod.o ;  true

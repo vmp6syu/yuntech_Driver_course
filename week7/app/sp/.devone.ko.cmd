@@ -1,0 +1,1 @@
+cmd_/home/yuyi/Documents/week7/app/sp/devone.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/yuyi/Documents/week7/app/sp/devone.ko /home/yuyi/Documents/week7/app/sp/devone.o /home/yuyi/Documents/week7/app/sp/devone.mod.o ;  true

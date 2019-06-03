@@ -1,0 +1,1 @@
+cmd_/home/yuyi/Documents/week9/kmalloc-20190513T073359Z-001/kmalloc/sample.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o /home/yuyi/Documents/week9/kmalloc-20190513T073359Z-001/kmalloc/sample.o /home/yuyi/Documents/week9/kmalloc-20190513T073359Z-001/kmalloc/main.o 

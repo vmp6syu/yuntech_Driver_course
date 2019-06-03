@@ -1,0 +1,1 @@
+cmd_/home/yuyi/Documents/week10/timer/timer/sample.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/yuyi/Documents/week10/timer/timer/sample.ko /home/yuyi/Documents/week10/timer/timer/sample.o /home/yuyi/Documents/week10/timer/timer/sample.mod.o ;  true
